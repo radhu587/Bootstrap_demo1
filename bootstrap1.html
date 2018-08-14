@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    .carousel-inner img{
+        width:100%;
+        height:100%;
+    }
+    </style>
+</head>
+<body>
+     <nav class="navbar navbar-expand-sm navbar-dark bg-dark mt-md-2 pl-5">
+        <form class="form-inline">
+            <input type="text" class="form-control" placeholder="search"/>
+        </form>
+        <button class="navbar-toggler bg-success" type="button" data-target="#first" data-toggle="collapse">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="first">
+                <ul class="navbar-nav ">
+                    <li class="nav-item pl-3">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <a href="#" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <a href="#" class="nav-link">contact</a>
+                    </li>
+                </ul>
+        </div>
+    </nav>
+    <div class="container mt-sm-4">
+        <div class="row">
+            <div class="col-sm-3 pl-sm-5">
+                <div class="row mb-4 ">
+                    <h2>Shop Name</h2>
+                </div>
+                <div class="row border border-bottom-0 p-2">Designer</div>
+                <div class="row border border-bottom-0 p-2">PHP Developer</div>
+                <div class="row border  mb-4 p-2">Android Developer</div>
+            </div>
+            <div class="col-sm-8 pl-md-5 ">
+                <div class="row pl-md-5 mb-4">
+                    <div class="carousel slide shadow-lg" id="demo" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li dtta-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="b.jpg"  width="1100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="kk.jpg" >
+                            </div>
+                        </div>
+                        <a href="#demo" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#demo" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row pl-md-5 mt-sm-5">
+                        <div class="col-sm-12 col-md-4" >
+                            <div class="card mb-4 shadow-lg">
+                                <img class="card-img-top" src="car1.jfif" width="100%"/>
+                                <div class="card-body">
+                                    <p class="card-title"  style="color:rgb(13, 93, 139);font-weight:bold">Radhika Makwana</p>
+                                    <p class="card-text">WEB designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="co-sm-12 col-md-4">
+                            <div class="card mb-4 shadow-lg">
+                                <img class="card-img-top" src="car2.jfif" width="100%">
+                                <div class="card-body">
+                                    <p class="card-title" style="color:rgb(13, 93, 139);font-weight:bold">dishali parekh</p>
+                                    <p class="card-text">Software designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card mb-4 shadow-lg">
+                                <img class="card-img-top" src="car3.jfif" width="100%">
+                                <div class="card-body">
+                                     <p class="card-title"  style="color:rgb(13, 93, 139);font-weight:bold">Smruti kakkad</p>
+                                     <p  class="card-text">PHP developer</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="row pl-md-5 mb-4">
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card shadow-lg mb-4">
+                            <img class="card-img-top" src="nat1.jfif" style="width:100%;">
+                            <div class="card-body">
+                                <p class="card-title" style="color:rgb(13, 93, 139);font-weight:bold">Prayag Trivedi</p>
+                                <p class="card-text">ROM developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <div class="card shadow-lg mb-4">
+                            <img class="card-img-top" src="nat2.jfif" style="width:100%">
+                            <div class="card-body">
+                                <p class="card-title" style="color:rgb(13, 93, 139);font-weight:bold">Mihit thakkar</p>
+                                <p class="card-text">Wordpress</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                            <p>this is the demonstration of the bootstrap</p>
+                            <button class="btn bg-primary">learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+</body>
+</html>
